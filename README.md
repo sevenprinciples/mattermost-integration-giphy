@@ -53,7 +53,7 @@ Here's how to start:
 4. **Connect your project to your Mattermost account for slash commands**
  1. Log in to your Mattermost account. Click the three dot menu at the top of the left-hand side and go to **Account Settings** > **Integrations** > **Slash Commands**
  2. Under *Add a new command*, enter `/gif` into **Command Trigger Word**
- 3. Paste your Heroku domain into *Callback URLs*, making sure to add `http://` to the beginning
+ 3. Paste your Heroku domain into *Callback URLs*, making sure to add `http://` to the beginning and `/new_post` to the end
  4. Select `POST` method
  5. (optional) Choose a username and icon url
  6. (optional) Check the autocomplete checkbox, add `[KEYWORD]` as the hint, `Returns a GIF from Giphy based on the keyword` as the description and `Get a GIF from Giphy` as the descriptive label
